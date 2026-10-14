@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "protected_selected_source_files": 45,
+  "bytes_sha256_sizes_mtimes_unchanged": true,
+  "analysis_results_write_operations": 0,
+  "source_paths_intentionally_omitted": true,
+  "scope": "Selected finalized sources read for this candidate, not a claim that every unrelated original file was hashed."
+}

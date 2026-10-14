@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-10-14T09:15:08.726584+00:00",
+  "selected_method": "M2",
+  "config_sha256": "9c09b4cf275eee8c16054f9053d5cc2c984edd56d61e18f1997103c29d311d02",
+  "estimators_sha256": "35d0f790805f1cae9f0e50e56683e16da7924b239b0db463b6cddd2e2d3e5bfc",
+  "synthetic_preregistration_sha256": "e3c89cd84bc6197f88bdce0ff16c917d8d3ff5584849f7ae613986f35f8c90b4",
+  "method_priority": [
+    "M2",
+    "M1"
+  ],
+  "all_gates_on_both_splits_passed": true,
+  "coverage_requirement": 0.85,
+  "direction_agreement_requirement": 0.9,
+  "Stage_B_only_existing_five_videos": true
+}

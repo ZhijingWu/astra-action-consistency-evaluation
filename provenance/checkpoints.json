@@ -1,0 +1,46 @@
+{
+  "scope": "HISTORICAL_IDENTIFIER_ONLY_NO_ASSETS_DISTRIBUTED",
+  "asset_redistribution_permission": "NOT_ESTABLISHED_OR_ASSERTED",
+  "checkpoints": [
+    {
+      "repository": "EvanEternal/Astra",
+      "revision": "aef5d6d75a994fa67f3f05cf17f5824a53b1c52f",
+      "filename": "diffusion_pytorch_model.ckpt",
+      "bytes": 3153044423,
+      "url": "https://huggingface.co/EvanEternal/Astra/resolve/aef5d6d75a994fa67f3f05cf17f5824a53b1c52f/models/Astra/checkpoints/diffusion_pytorch_model.ckpt",
+      "expected_sha256": "5ca9c5e04e26fdbe37ea4819ea623d76c69747f9fcbacd5ca47f43e49cbfbd9f",
+      "actual_sha256": "5ca9c5e04e26fdbe37ea4819ea623d76c69747f9fcbacd5ca47f43e49cbfbd9f",
+      "status": "VERIFIED"
+    },
+    {
+      "repository": "Wan-AI/Wan2.1-T2V-1.3B",
+      "revision": "37ec512624d61f7aa208f7ea8140a131f93afc9a",
+      "filename": "Wan2.1_VAE.pth",
+      "bytes": 507609880,
+      "url": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B/resolve/37ec512624d61f7aa208f7ea8140a131f93afc9a/Wan2.1_VAE.pth",
+      "expected_sha256": "38071ab59bd94681c686fa51d75a1968f64e470262043be31f7a094e442fd981",
+      "actual_sha256": "38071ab59bd94681c686fa51d75a1968f64e470262043be31f7a094e442fd981",
+      "status": "VERIFIED"
+    },
+    {
+      "repository": "Wan-AI/Wan2.1-T2V-1.3B",
+      "revision": "37ec512624d61f7aa208f7ea8140a131f93afc9a",
+      "filename": "diffusion_pytorch_model.safetensors",
+      "bytes": 5676070424,
+      "url": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B/resolve/37ec512624d61f7aa208f7ea8140a131f93afc9a/diffusion_pytorch_model.safetensors",
+      "expected_sha256": "96b6b242ca1c2f24e9d02cd6596066fab6d310e2d7538f33ae267cb18d957e8f",
+      "actual_sha256": "96b6b242ca1c2f24e9d02cd6596066fab6d310e2d7538f33ae267cb18d957e8f",
+      "status": "VERIFIED"
+    },
+    {
+      "repository": "Wan-AI/Wan2.1-T2V-1.3B",
+      "revision": "37ec512624d61f7aa208f7ea8140a131f93afc9a",
+      "filename": "models_t5_umt5-xxl-enc-bf16.pth",
+      "bytes": 11361920418,
+      "url": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B/resolve/37ec512624d61f7aa208f7ea8140a131f93afc9a/models_t5_umt5-xxl-enc-bf16.pth",
+      "expected_sha256": "7cace0da2b446bbbbc57d031ab6cf163a3d59b366da94e5afe36745b746fd81d",
+      "actual_sha256": "7cace0da2b446bbbbc57d031ab6cf163a3d59b366da94e5afe36745b746fd81d",
+      "status": "VERIFIED"
+    }
+  ]
+}

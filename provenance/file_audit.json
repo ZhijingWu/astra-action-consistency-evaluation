@@ -1,0 +1,399 @@
+{
+  "date": "2026-10-14",
+  "files": [
+    {
+      "public_file": ".gitattributes",
+      "origin": "Publication preparation from preserved research facts",
+      "transformation": "New prose, notices or environment/Git configuration; private content excluded",
+      "license_disposition": "MIT; original material (third-party terms remain separate)",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": ".gitignore",
+      "origin": "Publication preparation from preserved research facts",
+      "transformation": "New prose, notices or environment/Git configuration; private content excluded",
+      "license_disposition": "MIT; original material (third-party terms remain separate)",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "CITATION.cff",
+      "origin": "Pinned Astra README bibliography / independent software metadata",
+      "transformation": "Attribution and factual citation fields; no paper text/PDF or author affiliation claim",
+      "license_disposition": "MIT for original metadata formatting; cited bibliographic facts attributed",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "LICENSE",
+      "origin": "Publication preparation from preserved research facts",
+      "transformation": "New prose, notices or environment/Git configuration; private content excluded",
+      "license_disposition": "MIT; original material (third-party terms remain separate)",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "LICENSE_AND_PRIVACY_AUDIT.md",
+      "origin": "Publication preparation from preserved research facts",
+      "transformation": "New prose, notices or environment/Git configuration; private content excluded",
+      "license_disposition": "MIT; original material (third-party terms remain separate)",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "PUBLICATION_BLOCKERS.md",
+      "origin": "Publication preparation from preserved research facts",
+      "transformation": "New prose, notices or environment/Git configuration; private content excluded",
+      "license_disposition": "MIT; original material (third-party terms remain separate)",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "PUBLICATION_READINESS_REPORT.md",
+      "origin": "Publication preparation from preserved research facts",
+      "transformation": "New prose, notices or environment/Git configuration; private content excluded",
+      "license_disposition": "MIT; original material (third-party terms remain separate)",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "PUBLIC_FILE_INVENTORY.md",
+      "origin": "Publication preparation / preserved finalized evidence",
+      "transformation": "Human-readable file-level selection and exclusion audit",
+      "license_disposition": "MIT; original report/metadata",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "README.md",
+      "origin": "Publication preparation from preserved research facts",
+      "transformation": "New prose, notices or environment/Git configuration; private content excluded",
+      "license_disposition": "MIT; original material (third-party terms remain separate)",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "REPRODUCIBILITY_CHECK.md",
+      "origin": "Publication preparation / preserved finalized evidence",
+      "transformation": "Report of actual final release checks and explicitly unexecuted workflows",
+      "license_disposition": "MIT; original report/metadata",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "SCIENTIFIC_CLAIMS_AUDIT.md",
+      "origin": "Publication preparation from preserved research facts",
+      "transformation": "New prose, notices or environment/Git configuration; private content excluded",
+      "license_disposition": "MIT; original material (third-party terms remain separate)",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "SHA256SUMS.txt",
+      "origin": "Publication preparation / preserved finalized evidence",
+      "transformation": "Hashes of final payload; self and hash-embedding scan receipt excluded",
+      "license_disposition": "MIT; original report/metadata",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "THIRD_PARTY_NOTICES.md",
+      "origin": "Publication preparation from preserved research facts",
+      "transformation": "New prose, notices or environment/Git configuration; private content excluded",
+      "license_disposition": "MIT; original material (third-party terms remain separate)",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "configs/synthetic_frozen.json",
+      "origin": "synthetic-validation/frozen/config.json",
+      "transformation": "byte-identical",
+      "license_disposition": "MIT (original independent-study material)",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "docs/ASTRA_INFERENCE.md",
+      "origin": "Publication preparation from preserved research facts",
+      "transformation": "New prose, notices or environment/Git configuration; private content excluded",
+      "license_disposition": "MIT; original material (third-party terms remain separate)",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "docs/METHODOLOGY.md",
+      "origin": "Publication preparation from preserved research facts",
+      "transformation": "New prose, notices or environment/Git configuration; private content excluded",
+      "license_disposition": "MIT; original material (third-party terms remain separate)",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "docs/PUBLICATION_COMMANDS.md",
+      "origin": "Publication preparation from preserved research facts",
+      "transformation": "New prose, notices or environment/Git configuration; private content excluded",
+      "license_disposition": "MIT; original material (third-party terms remain separate)",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "docs/REPRODUCING.md",
+      "origin": "Publication preparation from preserved research facts",
+      "transformation": "New prose, notices or environment/Git configuration; private content excluded",
+      "license_disposition": "MIT; original material (third-party terms remain separate)",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "evaluation/controls.py",
+      "origin": "synthetic-validation/frozen/controls.py",
+      "transformation": "byte-identical",
+      "license_disposition": "MIT (original independent-study material)",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "evaluation/estimators.py",
+      "origin": "synthetic-validation/frozen/estimators.py",
+      "transformation": "byte-identical",
+      "license_disposition": "MIT (original independent-study material)",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "evaluation/evaluator.py",
+      "origin": "synthetic-validation/frozen/stage_a.py",
+      "transformation": "Exact truth_augment/summarize bodies; portable M0 record adapter and documentation added",
+      "license_disposition": "MIT (original independent-study material)",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "evaluation/geometry.py",
+      "origin": "synthetic-validation/frozen/geometry.py",
+      "transformation": "byte-identical",
+      "license_disposition": "MIT (original independent-study material)",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "evaluation/motion_controls.py",
+      "origin": "original-pilot/frozen/motion_controls.py",
+      "transformation": "byte-identical",
+      "license_disposition": "MIT (original independent-study material)",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "evaluation/synthetic.py",
+      "origin": "Publication preparation; frozen independent modules",
+      "transformation": "New portable CPU driver; no estimator or scientific parameter changes",
+      "license_disposition": "MIT; original code",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "evaluation/video.py",
+      "origin": "Publication preparation; frozen independent modules",
+      "transformation": "New portable CPU driver; no estimator or scientific parameter changes",
+      "license_disposition": "MIT; original code",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "figures/README.md",
+      "origin": "Publication preparation from preserved research facts",
+      "transformation": "New prose, notices or environment/Git configuration; private content excluded",
+      "license_disposition": "MIT; original material (third-party terms remain separate)",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "figures/astra_coverage.png",
+      "origin": "results/astra_coverage.csv",
+      "transformation": "Original Matplotlib numeric plot; no scene pixels; code is tools/plot_coverage.py",
+      "license_disposition": "MIT; original numeric figure",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "figures/astra_coverage.svg",
+      "origin": "results/astra_coverage.csv",
+      "transformation": "Original Matplotlib numeric plot; no scene pixels; code is tools/plot_coverage.py",
+      "license_disposition": "MIT; original numeric figure",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "provenance/checkpoints.json",
+      "origin": "Publication preparation / preserved finalized evidence",
+      "transformation": "Whitelisted historical model identifiers, revisions and hashes; no asset bytes or paths",
+      "license_disposition": "MIT; original report/metadata",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "provenance/dependencies.json",
+      "origin": "Publication preparation / preserved finalized evidence",
+      "transformation": "Installed dependency license classifiers and relative document hashes; no libraries copied",
+      "license_disposition": "MIT; original report/metadata",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "provenance/file_audit.json",
+      "origin": "Publication preparation / preserved finalized evidence",
+      "transformation": "This file-level audit in machine-readable form",
+      "license_disposition": "MIT; original report/metadata",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "provenance/origin_review.json",
+      "origin": "Publication preparation / preserved finalized evidence",
+      "transformation": "Original-code origin review and exact AST comparison count; no copied upstream code",
+      "license_disposition": "MIT; original report/metadata",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "provenance/secondary_metric_freeze.json",
+      "origin": "Publication preparation / preserved finalized evidence",
+      "transformation": "Historical M2 freeze copied as a factual record; no new threshold/selection",
+      "license_disposition": "MIT; original report/metadata",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "provenance/sources.json",
+      "origin": "Publication preparation / preserved finalized evidence",
+      "transformation": "Logical source labels, digests and transformations; private absolute paths removed",
+      "license_disposition": "MIT; original report/metadata",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "references.bib",
+      "origin": "Pinned Astra README bibliography / independent software metadata",
+      "transformation": "Attribution and factual citation fields; no paper text/PDF or author affiliation claim",
+      "license_disposition": "MIT for original metadata formatting; cited bibliographic facts attributed",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "requirements-figures.txt",
+      "origin": "Publication preparation from preserved research facts",
+      "transformation": "New prose, notices or environment/Git configuration; private content excluded",
+      "license_disposition": "MIT; original material (third-party terms remain separate)",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "requirements-historical.txt",
+      "origin": "Publication preparation from preserved research facts",
+      "transformation": "New prose, notices or environment/Git configuration; private content excluded",
+      "license_disposition": "MIT; original material (third-party terms remain separate)",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "requirements.txt",
+      "origin": "Publication preparation from preserved research facts",
+      "transformation": "New prose, notices or environment/Git configuration; private content excluded",
+      "license_disposition": "MIT; original material (third-party terms remain separate)",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "results/README.md",
+      "origin": "Publication preparation from preserved research facts",
+      "transformation": "New prose, notices or environment/Git configuration; private content excluded",
+      "license_disposition": "MIT; original material (third-party terms remain separate)",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "results/annotation_exploratory_aggregate.csv",
+      "origin": "final-V2/summary.json",
+      "transformation": "Whitelisted aggregate fields; no coordinates, identities, notes or declarations",
+      "license_disposition": "MIT; original factual numeric summary",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "results/annotation_status.json",
+      "origin": "final-V2/summary.json",
+      "transformation": "Whitelisted aggregate fields; no coordinates, identities, notes or declarations",
+      "license_disposition": "MIT; original factual numeric summary",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "results/astra_M2_per_interval.csv",
+      "origin": "synthetic-validation/retained/astra_secondary_per_interval_results.csv",
+      "transformation": "byte-identical",
+      "license_disposition": "MIT (original independent-study material)",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "results/astra_coverage.csv",
+      "origin": "final-V2/summary.json",
+      "transformation": "Stage B original valid counts match exactly",
+      "license_disposition": "MIT; original factual numeric summary",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "results/pilot_controls.json",
+      "origin": "original-pilot/model_execution.json and execution_evidence_verification.json",
+      "transformation": "Whitelisted execution and control results",
+      "license_disposition": "MIT; original factual numeric summary",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "results/synthetic_case_summary.csv",
+      "origin": "synthetic-validation/retained/synthetic_case_summary.csv",
+      "transformation": "byte-identical",
+      "license_disposition": "MIT (original independent-study material)",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "results/synthetic_per_interval.csv",
+      "origin": "synthetic-validation/retained/synthetic_per_interval_results.csv",
+      "transformation": "byte-identical",
+      "license_disposition": "MIT (original independent-study material)",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "results/synthetic_selection.json",
+      "origin": "synthetic-validation/retained/stage_a_status.json",
+      "transformation": "Whitelisted method/control/environment summary",
+      "license_disposition": "MIT; original factual numeric summary",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "results/synthetic_smoke_reference.csv",
+      "origin": "results/synthetic_per_interval.csv",
+      "transformation": "Exactly 24 retained first-two-interval M0/M2 rows in three cases across two splits",
+      "license_disposition": "MIT; original factual numeric summary",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "tests/test_release.py",
+      "origin": "Publication preparation",
+      "transformation": "Original release QA or numeric plotting code; no upstream implementation copied",
+      "license_disposition": "MIT; original code",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "third_party/ASTRA_LICENSE.txt",
+      "origin": "EternalEvan/Astra@3fb82e1939bfcf87d6e27a7da57d8b55ff9cb393/LICENSE",
+      "transformation": "byte-identical",
+      "license_disposition": "MIT; upstream copyright notice retained verbatim",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "tools/plot_coverage.py",
+      "origin": "Publication preparation",
+      "transformation": "Original release QA or numeric plotting code; no upstream implementation copied",
+      "license_disposition": "MIT; original code",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "tools/release_audit.py",
+      "origin": "Publication preparation",
+      "transformation": "Original release QA or numeric plotting code; no upstream implementation copied",
+      "license_disposition": "MIT; original code",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "verification/cpu_checks.json",
+      "origin": "Publication preparation / preserved finalized evidence",
+      "transformation": "Sanitized facts from executed CPU tests, CLI contracts and integrity fixtures",
+      "license_disposition": "MIT; original report/metadata",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "verification/intended_git_files.txt",
+      "origin": "Publication preparation / preserved finalized evidence",
+      "transformation": "Exact intended candidate Git payload list; no Git internals or private files",
+      "license_disposition": "MIT; original report/metadata",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "verification/release_scan.json",
+      "origin": "Publication preparation / preserved finalized evidence",
+      "transformation": "Generated offline secret/path/type/size scan; no secret values printed",
+      "license_disposition": "MIT; original report/metadata",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    },
+    {
+      "public_file": "verification/source_preservation.json",
+      "origin": "Publication preparation / preserved finalized evidence",
+      "transformation": "Hash/size/mtime comparison of selected finalized inputs; private paths omitted",
+      "license_disposition": "MIT; original report/metadata",
+      "privacy_review": "Allowed public payload; no raw/identity/private-path material"
+    }
+  ],
+  "hash_inventory": "SHA256SUMS.txt",
+  "file_level_license_and_privacy_review": true
+}

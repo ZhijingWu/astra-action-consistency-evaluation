@@ -1,0 +1,3 @@
+# CPU regression environment validated for this candidate.
+numpy==2.1.3
+opencv-python-headless==4.10.0.84

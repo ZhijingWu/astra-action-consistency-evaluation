@@ -1,0 +1,6 @@
+video,M0_valid,M2_valid,denominator,M0_coverage,M2_coverage,M2_85pct_gate_passed,independent_replicate
+A17,96,75,96,1.0,0.78125,False,True
+B17,21,38,96,0.21875,0.3958333333333333,False,True
+A17_repeat,96,75,96,1.0,0.78125,False,False
+A29,96,73,96,1.0,0.7604166666666666,False,True
+B29,9,56,96,0.09375,0.5833333333333334,False,True

@@ -1,0 +1,300 @@
+{
+  "status": "PASS",
+  "findings": [],
+  "file_count": 55,
+  "logical_bytes": 2276901,
+  "maximum_file_bytes": 1862021,
+  "per_file_limit_bytes": 5242880,
+  "scan_receipt_excluded_from_its_own_inventory": true,
+  "limitations": "Offline heuristic scan plus intended-file review; no guarantee of absence of all secrets. Git metadata and ignored caches are outside the payload.",
+  "inventory": [
+    {
+      "path": ".gitattributes",
+      "bytes": 92,
+      "sha256": "74c657baa942a569c93ec8a489f5bc877d510c2ad20f6e8f9ca05c668715e2d5"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 142,
+      "sha256": "089ba80faced84ba3f2168e25239c076955bccdf18d8cdb47aa77222f8c94bdb"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 592,
+      "sha256": "e9343aad75e4014e44cd84d5a5e27bbf7c6817af69a18a623bd497ed0c93e080"
+    },
+    {
+      "path": "configs/synthetic_frozen.json",
+      "bytes": 5351,
+      "sha256": "9c09b4cf275eee8c16054f9053d5cc2c984edd56d61e18f1997103c29d311d02"
+    },
+    {
+      "path": "docs/ASTRA_INFERENCE.md",
+      "bytes": 3248,
+      "sha256": "6cab7563ae60713092aebf149e2ebad3171f045a86c54036d3ee9d0c6df249d5"
+    },
+    {
+      "path": "docs/METHODOLOGY.md",
+      "bytes": 3995,
+      "sha256": "86d215ec90fa0da0215d033fc53647c113f63b568bd70112a0dafc7396105e9b"
+    },
+    {
+      "path": "docs/PUBLICATION_COMMANDS.md",
+      "bytes": 1596,
+      "sha256": "e38f35f26fd2c67b551a7caca7eea4cdf5a9ed803bcd1e1315e08237444b5afe"
+    },
+    {
+      "path": "docs/REPRODUCING.md",
+      "bytes": 4297,
+      "sha256": "6be4343bfc3f604e0b1b5891ecdd0c8b9491648bab5a76be7280b9390c25f999"
+    },
+    {
+      "path": "evaluation/controls.py",
+      "bytes": 3699,
+      "sha256": "5fa4c81e2782c060ae88cfc7a96883cf5be39ba7d46229b33e16b0fae68e4af1"
+    },
+    {
+      "path": "evaluation/estimators.py",
+      "bytes": 4429,
+      "sha256": "35d0f790805f1cae9f0e50e56683e16da7924b239b0db463b6cddd2e2d3e5bfc"
+    },
+    {
+      "path": "evaluation/evaluator.py",
+      "bytes": 5933,
+      "sha256": "9b60dba3954d538d1ec93393e60588ac6546f1446fbb3cb196d82d6ee6c07ba6"
+    },
+    {
+      "path": "evaluation/geometry.py",
+      "bytes": 4992,
+      "sha256": "377cc0b39a776a9c004ff3389f6b410e498f38f095b6710830bb411048650257"
+    },
+    {
+      "path": "evaluation/motion_controls.py",
+      "bytes": 7007,
+      "sha256": "456e1ac47042455d8236b14dc52927827f55d09c0cf41ef2663c0be5b0c829c6"
+    },
+    {
+      "path": "evaluation/synthetic.py",
+      "bytes": 4921,
+      "sha256": "19acd805a365d0f5be7b73e48603676dd6c87cc8a98e3cccdb73bc4c50326719"
+    },
+    {
+      "path": "evaluation/video.py",
+      "bytes": 2551,
+      "sha256": "88fa2c4fed3a97b32f38cb32646e00c2ea38011d6c407ea84aef667bf53b4fb2"
+    },
+    {
+      "path": "figures/astra_coverage.png",
+      "bytes": 78928,
+      "sha256": "69feb1f5e43db1076ae9982e9ddb59dbd1809f01a1df6ac0baf237cfa30b69a6"
+    },
+    {
+      "path": "figures/astra_coverage.svg",
+      "bytes": 41962,
+      "sha256": "03d7190498dec96dc340279ab19e13b358b107e8d9ee5da5a97fda55fc89c487"
+    },
+    {
+      "path": "figures/README.md",
+      "bytes": 946,
+      "sha256": "2380a602797cf436b58727ccc92d68fff6f0f2fb5c296ca54384bd57393066a5"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1105,
+      "sha256": "e16880da754791f756fed7e649b73bcc738198423106971b237bc37c16df6716"
+    },
+    {
+      "path": "LICENSE_AND_PRIVACY_AUDIT.md",
+      "bytes": 4911,
+      "sha256": "057bebbab5ff8b375b8d8635def0bed55592c21cc46ed98066cfa05831c48ff2"
+    },
+    {
+      "path": "provenance/checkpoints.json",
+      "bytes": 2360,
+      "sha256": "30b778d6a7a0b84a096203c947f28724044935d1383e7a9550311de6807e731c"
+    },
+    {
+      "path": "provenance/dependencies.json",
+      "bytes": 2799,
+      "sha256": "466b65852f568450a8c0b3ecfb57d168f212086474e5cc71db44c4832e7ab109"
+    },
+    {
+      "path": "provenance/file_audit.json",
+      "bytes": 21823,
+      "sha256": "045a3a4b3c936086e8633b7bad200e78edca0c5edc5ff251c0f3ba51e531f42d"
+    },
+    {
+      "path": "provenance/origin_review.json",
+      "bytes": 487,
+      "sha256": "37827e2dc5a4cf4d1202150b6635f015f483cad6cd17fcc4719028482bbbc959"
+    },
+    {
+      "path": "provenance/secondary_metric_freeze.json",
+      "bytes": 576,
+      "sha256": "48568e8438f9c8cbcd660a129d233513c21de209edffb30026db5c89495afc64"
+    },
+    {
+      "path": "provenance/sources.json",
+      "bytes": 5968,
+      "sha256": "a6e4bb701a0c6a19618a00b45f0f19da7bc3d0863d1c090f566882fc995d8916"
+    },
+    {
+      "path": "PUBLIC_FILE_INVENTORY.md",
+      "bytes": 15326,
+      "sha256": "41143d265e11ed758e2e43dea45b1d9e370a7d53597110e5cdbf419057eabaf1"
+    },
+    {
+      "path": "PUBLICATION_BLOCKERS.md",
+      "bytes": 2465,
+      "sha256": "94929ed36e5278d71b07462489e8f451e8938e6ec542b55395ea9d0722b44ee9"
+    },
+    {
+      "path": "PUBLICATION_READINESS_REPORT.md",
+      "bytes": 2701,
+      "sha256": "8466702df1ea8327decf427829d7cb83434054efb4a72b27fecf830addc2e3c3"
+    },
+    {
+      "path": "README.md",
+      "bytes": 11376,
+      "sha256": "c115b1793e23cf5b491573d527dd783928aff18a57c80e9d5767c3d7e0281369"
+    },
+    {
+      "path": "references.bib",
+      "bytes": 369,
+      "sha256": "8cb980fd2d0902c13079914c34655f71a62504b5cab1edc4d741f1abbb1faeb0"
+    },
+    {
+      "path": "REPRODUCIBILITY_CHECK.md",
+      "bytes": 3107,
+      "sha256": "5be78e79f24666a737df01237eed516ee301434fd05ed7da9cb2ca939b3da6ff"
+    },
+    {
+      "path": "requirements-figures.txt",
+      "bytes": 39,
+      "sha256": "1ebeb4c36cd730eb8bc9181c32d1408247f53d13503ea3fbc412b83fde6fff56"
+    },
+    {
+      "path": "requirements-historical.txt",
+      "bytes": 195,
+      "sha256": "c8ebc595de48ef50dd9f3e8c293e02feb821e47e12a11d9dd92106429e072011"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 106,
+      "sha256": "51d01f11f779c8dba98a6de265c47eb8a97f6c8c7b22159a620ead4fe69dee47"
+    },
+    {
+      "path": "results/annotation_exploratory_aggregate.csv",
+      "bytes": 578,
+      "sha256": "15be51fe1ef0f963067ed8d0965e17312f42c18908d8ca32d88bf6a0b8470b86"
+    },
+    {
+      "path": "results/annotation_status.json",
+      "bytes": 807,
+      "sha256": "faf7f4a5aebb95255bc480519169e074863521159074d1d65db9ea885af10a2e"
+    },
+    {
+      "path": "results/astra_coverage.csv",
+      "bytes": 331,
+      "sha256": "a54ad205c63453366b4becd60f4084c03d0a881fdf042d25934c83dc1bfcfff6"
+    },
+    {
+      "path": "results/astra_M2_per_interval.csv",
+      "bytes": 103215,
+      "sha256": "e9216b785302cf0023c3e8c6189911f6dd41a286c50b924e9247ff16736405dd"
+    },
+    {
+      "path": "results/pilot_controls.json",
+      "bytes": 2028,
+      "sha256": "42b335e5ee4993731e2a376db08966b79438fda7589b2012ad39195a701acbe6"
+    },
+    {
+      "path": "results/README.md",
+      "bytes": 1569,
+      "sha256": "9439056eee7ae245f199fa96c92b048843318ef8c7e1113b4c9ac5570f71a792"
+    },
+    {
+      "path": "results/synthetic_case_summary.csv",
+      "bytes": 15749,
+      "sha256": "2581a4274fdcace762296ebf52ea068ea3d93c2f51c3834948136df955636187"
+    },
+    {
+      "path": "results/synthetic_per_interval.csv",
+      "bytes": 1862021,
+      "sha256": "2448bc80d8b3b098cf52fc8f42a1dd803ea706ce8a3b15d22a57db739446911d"
+    },
+    {
+      "path": "results/synthetic_selection.json",
+      "bytes": 4161,
+      "sha256": "ad07e89b5f91790f6ed789bc9be161bc947a6eff8912731f2bf6842c53fa8df2"
+    },
+    {
+      "path": "results/synthetic_smoke_reference.csv",
+      "bytes": 5853,
+      "sha256": "d9c8b8e707f6f72762cc2f5fe67fb7397a8368169eda1240304a41e5124e0c3e"
+    },
+    {
+      "path": "SCIENTIFIC_CLAIMS_AUDIT.md",
+      "bytes": 3451,
+      "sha256": "9a60e0f83ccff1cdd202e59d74e5a365dab01ccf0258e76605eb7c6633bb3c63"
+    },
+    {
+      "path": "SHA256SUMS.txt",
+      "bytes": 4958,
+      "sha256": "3d87d8a25370827d953d8c3d5d73d03a46a36b236642949834761a5250664926"
+    },
+    {
+      "path": "tests/test_release.py",
+      "bytes": 6714,
+      "sha256": "51b799066cdd4abbd3fd8dfc02531d3e9f99a46427059aaa4511b1b6ebf16118"
+    },
+    {
+      "path": "third_party/ASTRA_LICENSE.txt",
+      "bytes": 1063,
+      "sha256": "a5c29817d5fcb13f36f81a736c19da566fdbd6c405bff7bbc68b653d448838b6"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 2139,
+      "sha256": "69a898d7816afe5b2ed02e4cd6b4eb701a96d109ec85f3928f3d483b50bd0713"
+    },
+    {
+      "path": "tools/plot_coverage.py",
+      "bytes": 2245,
+      "sha256": "d37ec362deb0d65ea5916c0bb5d810988a82ae77e1ba2c5acb9a2c9e2092041e"
+    },
+    {
+      "path": "tools/release_audit.py",
+      "bytes": 5790,
+      "sha256": "45bff2b9995fc2a5ad71c6c9cf9e1a0d05a22c9a2343f51e2f911e2885cdb292"
+    },
+    {
+      "path": "verification/cpu_checks.json",
+      "bytes": 2071,
+      "sha256": "22c89cd98731ba99a5b87755eb6c07f92a1e1bdf1b36447e64f38b34f025a4f8"
+    },
+    {
+      "path": "verification/intended_git_files.txt",
+      "bytes": 1440,
+      "sha256": "b0b201b107ef0e570718e8bb346b252419c52abda6e9fd1383568a5d8c3d0512"
+    },
+    {
+      "path": "verification/source_preservation.json",
+      "bytes": 324,
+      "sha256": "e22c8ca9da82f96bab69f15c8688a555d34e0f179fce5b976fe23fc03291f9ec"
+    }
+  ],
+  "manifest_verification": {
+    "status": "PASS",
+    "payload_files_verified": 54,
+    "mismatches": [],
+    "excludes": [
+      "SHA256SUMS.txt",
+      "verification/release_scan.json"
+    ],
+    "reason": "Manifest cannot hash itself; scan receipt embeds hashes of payload and would create a circular dependency."
+  },
+  "date": "2026-10-14",
+  "manual_file_level_review": "provenance/file_audit.json and PUBLIC_FILE_INVENTORY.md",
+  "receipt_scope": "All candidate payload files except this generated hash-embedding receipt; receipt itself contains only public relative names and scan facts."
+}

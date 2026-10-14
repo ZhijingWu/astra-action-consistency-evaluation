@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "upstream_source_revision": "3fb82e1939bfcf87d6e27a7da57d8b55ff9cb393",
+  "identifier_note": "Source identifiers are logical labels, not public downloads or private paths. Private originals are not needed for CPU tests.",
+  "sources": [
+    {
+      "public_file": "evaluation/geometry.py",
+      "source_identifier": "synthetic-validation/frozen/geometry.py",
+      "source_sha256": "377cc0b39a776a9c004ff3389f6b410e498f38f095b6710830bb411048650257",
+      "transformation": "byte-identical",
+      "license": "MIT (original independent-study material)"
+    },
+    {
+      "public_file": "evaluation/estimators.py",
+      "source_identifier": "synthetic-validation/frozen/estimators.py",
+      "source_sha256": "35d0f790805f1cae9f0e50e56683e16da7924b239b0db463b6cddd2e2d3e5bfc",
+      "transformation": "byte-identical",
+      "license": "MIT (original independent-study material)"
+    },
+    {
+      "public_file": "evaluation/controls.py",
+      "source_identifier": "synthetic-validation/frozen/controls.py",
+      "source_sha256": "5fa4c81e2782c060ae88cfc7a96883cf5be39ba7d46229b33e16b0fae68e4af1",
+      "transformation": "byte-identical",
+      "license": "MIT (original independent-study material)"
+    },
+    {
+      "public_file": "evaluation/motion_controls.py",
+      "source_identifier": "original-pilot/frozen/motion_controls.py",
+      "source_sha256": "456e1ac47042455d8236b14dc52927827f55d09c0cf41ef2663c0be5b0c829c6",
+      "transformation": "byte-identical",
+      "license": "MIT (original independent-study material)"
+    },
+    {
+      "public_file": "configs/synthetic_frozen.json",
+      "source_identifier": "synthetic-validation/frozen/config.json",
+      "source_sha256": "9c09b4cf275eee8c16054f9053d5cc2c984edd56d61e18f1997103c29d311d02",
+      "transformation": "byte-identical",
+      "license": "MIT (original independent-study material)"
+    },
+    {
+      "public_file": "evaluation/evaluator.py",
+      "source_identifier": "synthetic-validation/frozen/stage_a.py",
+      "source_sha256": "054cf25b3e63f14aac42fab386709fd3ed783a4fac1e448262a2547cb0a887c9",
+      "transformation": "Exact truth_augment/summarize bodies; portable M0 record adapter and documentation added",
+      "license": "MIT (original independent-study material)"
+    },
+    {
+      "public_file": "results/synthetic_case_summary.csv",
+      "source_identifier": "synthetic-validation/retained/synthetic_case_summary.csv",
+      "source_sha256": "2581a4274fdcace762296ebf52ea068ea3d93c2f51c3834948136df955636187",
+      "transformation": "byte-identical",
+      "license": "MIT (original independent-study material)"
+    },
+    {
+      "public_file": "results/synthetic_per_interval.csv",
+      "source_identifier": "synthetic-validation/retained/synthetic_per_interval_results.csv",
+      "source_sha256": "2448bc80d8b3b098cf52fc8f42a1dd803ea706ce8a3b15d22a57db739446911d",
+      "transformation": "byte-identical",
+      "license": "MIT (original independent-study material)"
+    },
+    {
+      "public_file": "results/astra_M2_per_interval.csv",
+      "source_identifier": "synthetic-validation/retained/astra_secondary_per_interval_results.csv",
+      "source_sha256": "e9216b785302cf0023c3e8c6189911f6dd41a286c50b924e9247ff16736405dd",
+      "transformation": "byte-identical",
+      "license": "MIT (original independent-study material)"
+    },
+    {
+      "public_file": "third_party/ASTRA_LICENSE.txt",
+      "source_identifier": "EternalEvan/Astra@3fb82e1939bfcf87d6e27a7da57d8b55ff9cb393/LICENSE",
+      "source_sha256": "a5c29817d5fcb13f36f81a736c19da566fdbd6c405bff7bbc68b653d448838b6",
+      "transformation": "byte-identical",
+      "license": "MIT; upstream copyright notice retained verbatim"
+    }
+  ],
+  "aggregate_derivations": [
+    {
+      "public_files": [
+        "results/astra_coverage.csv"
+      ],
+      "source_identifier": "final-V2/summary.json",
+      "source_sha256": "a3c8644d1647a763e32a46f14ee9fbea791dbdfb6dd1f60a9834b8cbdafacec4",
+      "cross_check": "Stage B original valid counts match exactly"
+    },
+    {
+      "public_files": [
+        "results/annotation_exploratory_aggregate.csv",
+        "results/annotation_status.json"
+      ],
+      "source_identifier": "final-V2/summary.json",
+      "source_sha256": "a3c8644d1647a763e32a46f14ee9fbea791dbdfb6dd1f60a9834b8cbdafacec4",
+      "transformation": "Whitelisted aggregate fields; no coordinates, identities, notes or declarations"
+    },
+    {
+      "public_files": [
+        "results/synthetic_selection.json"
+      ],
+      "source_identifier": "synthetic-validation/retained/stage_a_status.json",
+      "source_sha256": "eb6aa106b4e3ec44cbbf72b4ff0f21289aa1ea41f4177620389434ffafe69009",
+      "transformation": "Whitelisted method/control/environment summary"
+    },
+    {
+      "public_files": [
+        "results/pilot_controls.json"
+      ],
+      "source_identifier": "original-pilot/model_execution.json and execution_evidence_verification.json",
+      "source_sha256": [
+        "ecbddaeff26b624875e7996b1d1f26984d7cef8a720eff5bf4919cfcbba513d0",
+        "13145d34830bed97c274852d582e343df3b99113dc184f4ba55daac4081a9b10"
+      ],
+      "transformation": "Whitelisted execution and control results"
+    },
+    {
+      "public_files": [
+        "results/synthetic_smoke_reference.csv"
+      ],
+      "source_identifier": "results/synthetic_per_interval.csv",
+      "transformation": "Exactly 24 retained first-two-interval M0/M2 rows in three cases across two splits"
+    }
+  ],
+  "final_annotation_record": {
+    "assessment_sha256": "70dd4610a957374a576a651d6ed35147e34f0ed3ae17f467a94f050b211ee6fa",
+    "manifest_sha256": "83baf1a7bc90b273d998c2b7274f679731d04b7f8cc5752db5199caf97667289",
+    "manifest_artifacts_verified": 27,
+    "final_preservation_record_timestamp": "2026-10-14T20:54:23.175575+08:00",
+    "comparison_status": "FINAL_RECORD_AVAILABLE_AND_INTEGRITY_VERIFIED",
+    "original_conclusion": "INCONCLUSIVE"
+  }
+}

@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If using these independent diagnostics, cite this repository and the original Astra paper. No archived software DOI has been minted."
+title: "Astra Action Consistency Evaluation: Independent Instrument Diagnostics"
+type: software
+authors:
+  - name: "Astra Action Consistency Evaluation contributors"
+license: MIT
+url: "https://github.com/ZhijingWu/astra-action-consistency-evaluation"
+abstract: "Bounded synthetic validation and coverage/abstention diagnostics. The original model-level action-fidelity result remains inconclusive. This is an independent study."

@@ -1,0 +1,11 @@
+{
+  "independent_files_reviewed": [
+    "evaluation/geometry.py",
+    "evaluation/estimators.py",
+    "evaluation/controls.py",
+    "evaluation/motion_controls.py"
+  ],
+  "upstream_cached_python_files_compared": 173,
+  "exact_function_or_class_AST_matches": [],
+  "limitation": "An exact-body comparison supports provenance review but is not proof of legal ownership. These files belong to the existing independent project supplied for release; original hashes match frozen receipts."
+}

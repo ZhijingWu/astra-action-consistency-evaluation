@@ -1,0 +1,21 @@
+{
+  "classification": "POST_HOC_EXPLORATORY_AI_ASSISTED_USER_REVIEWED_ANNOTATION_CONCORDANCE",
+  "reference_status": "NOT_INDEPENDENT_HUMAN_REFERENCE",
+  "planned_rows": 120,
+  "tentative_visible_proposals": 119,
+  "annotation_abstentions": 1,
+  "sample_pairs": 30,
+  "unique_raw_frame_pairs": 29,
+  "independent_ground_truth_rows": 0,
+  "annotation_based_physical_yaw_measurements": 0,
+  "same_support": {
+    "linked_both_methods": 0,
+    "both_intervals_eligible": 0,
+    "median_M0_displacement_discrepancy_px": null,
+    "median_M2_displacement_discrepancy_px": null,
+    "median_paired_M2_minus_M0_discrepancy_px": null
+  },
+  "primary_model_level_result": "INCONCLUSIVE",
+  "independent_blinded_annotation_requirement": "UNFULFILLED",
+  "no_model_defect_or_physical_yaw_fidelity_established": true
+}

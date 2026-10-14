@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "date": "2026-10-14",
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.1.3",
+    "opencv": "4.10.0",
+    "matplotlib": "3.10.0",
+    "platform": "Windows CPU"
+  },
+  "unittest": {
+    "tests": 6,
+    "passed": 6,
+    "failed_final": 0,
+    "wall_seconds": 19.383,
+    "tests_executed": [
+      "frozen_source_hashes",
+      "independent_geometry_controls",
+      "bounded_M0_M2_numerical_regression",
+      "evidence_poor_abstention",
+      "retained_synthetic_summaries_and_selection",
+      "real_coverage_and_abstention_denominators"
+    ],
+    "geometry_control_count": 10,
+    "numerical_regression_records": 24,
+    "synthetic_summary_fields_compared": 780,
+    "retained_synthetic_rows": 7488,
+    "retained_synthetic_summaries": 78,
+    "retained_Astra_M2_rows": 480
+  },
+  "initial_QA_issue": {
+    "issue": "Test-only expected comparison count was 858; 78 summaries x 10 fields yields 780.",
+    "repair": "Corrected assertion to 780; numerical comparisons had already all passed; scientific files/parameters/results unchanged.",
+    "initial_test_exit_code": 1,
+    "final_test_exit_code": 0
+  },
+  "CLI_help_import_checks": [
+    {
+      "script": "evaluation/synthetic.py",
+      "help_exit_code": 0
+    },
+    {
+      "script": "evaluation/video.py",
+      "help_exit_code": 0
+    },
+    {
+      "script": "tools/plot_coverage.py",
+      "help_exit_code": 0
+    },
+    {
+      "script": "tools/release_audit.py",
+      "help_exit_code": 0
+    }
+  ],
+  "invalid_video_shape_rejected_without_output": true,
+  "scanner_rejects_private_path_token_and_checkpoint_fixtures": true,
+  "manifest_detects_controlled_tamper_fixture": true,
+  "relative_Markdown_links_valid": true,
+  "citation_matches_pinned_upstream_README": true,
+  "figure_visual_QA": {
+    "file": "figures/astra_coverage.png",
+    "labels_counts_legend_and_clipping": "PASS",
+    "source_table": "results/astra_coverage.csv"
+  },
+  "full_synthetic_suite_rerun": false,
+  "real_video_metric_rerun": false,
+  "GPU_or_model_inference": false,
+  "paid_APIs": false
+}

@@ -1,0 +1,4 @@
+# Historical Linux execution used Python 3.11.17; this file is not tested anew.
+# Use Python 3.11 rather than Python 3.13 for NumPy 1.26.4 wheels.
+numpy==1.26.4
+opencv-python-headless==4.10.0.84

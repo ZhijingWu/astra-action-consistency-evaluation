@@ -1,0 +1,133 @@
+{
+  "classification": "RETAINED_HISTORICAL_RESULT",
+  "selected_method": "M2",
+  "method_results": {
+    "M0": {
+      "splits": {
+        "development": {
+          "case_passes": 6,
+          "case_total": 13,
+          "failed_cases": {
+            "development/large_negative": [
+              "coverage_on_truth_adequate"
+            ],
+            "development/occlusion_positive": [
+              "coverage_on_truth_adequate"
+            ],
+            "development/occlusion_negative": [
+              "coverage_on_truth_adequate"
+            ],
+            "development/attrition_positive": [
+              "unsupported_claim_fraction"
+            ],
+            "development/attrition_negative": [
+              "coverage_on_truth_adequate",
+              "unsupported_claim_fraction"
+            ],
+            "development/blank_control": [
+              "coverage_on_truth_adequate"
+            ],
+            "development/changing_texture_control": [
+              "unsupported_claim_fraction"
+            ]
+          }
+        },
+        "heldout": {
+          "case_passes": 6,
+          "case_total": 13,
+          "failed_cases": {
+            "heldout/large_negative": [
+              "coverage_on_truth_adequate"
+            ],
+            "heldout/occlusion_positive": [
+              "coverage_on_truth_adequate"
+            ],
+            "heldout/occlusion_negative": [
+              "coverage_on_truth_adequate"
+            ],
+            "heldout/attrition_positive": [
+              "unsupported_claim_fraction"
+            ],
+            "heldout/attrition_negative": [
+              "coverage_on_truth_adequate",
+              "unsupported_claim_fraction"
+            ],
+            "heldout/blank_control": [
+              "coverage_on_truth_adequate"
+            ],
+            "heldout/changing_texture_control": [
+              "unsupported_claim_fraction"
+            ]
+          }
+        }
+      },
+      "overall_false_valid_fraction_on_inadequate": 0.008849557522123894,
+      "all_prospective_gates_passed": false
+    },
+    "M1": {
+      "splits": {
+        "development": {
+          "case_passes": 13,
+          "case_total": 13,
+          "failed_cases": {}
+        },
+        "heldout": {
+          "case_passes": 13,
+          "case_total": 13,
+          "failed_cases": {}
+        }
+      },
+      "overall_false_valid_fraction_on_inadequate": 0.0,
+      "all_prospective_gates_passed": true
+    },
+    "M2": {
+      "splits": {
+        "development": {
+          "case_passes": 13,
+          "case_total": 13,
+          "failed_cases": {}
+        },
+        "heldout": {
+          "case_passes": 13,
+          "case_total": 13,
+          "failed_cases": {}
+        }
+      },
+      "overall_false_valid_fraction_on_inadequate": 0.0,
+      "all_prospective_gates_passed": true
+    }
+  },
+  "geometry_controls": {
+    "checks": {
+      "independent_projection_formula": true,
+      "independent_central_sign": true,
+      "physical_convention_reversal": true,
+      "deliberate_sign_metadata_swap_detected": true,
+      "proper_rotation": true,
+      "identity_zero_flow": true,
+      "forward_backward_geometry": true,
+      "repeat_render_byte_identical": true,
+      "visible_projection_consistency": true,
+      "occlusion_and_departure_exercised": true
+    },
+    "evidence": {
+      "max_projection_error_pixels": 2.2737367544323206e-13,
+      "max_geometric_FB_error_pixels": 2.2737367544323206e-13,
+      "excluded_occluded_grid_samples": 1320,
+      "excluded_offscreen_grid_samples": 3346,
+      "central_positive_theta_dx_pixels": 60.200803251270315,
+      "central_negative_theta_dx_pixels": -60.200803251270315,
+      "physical_positive_heading_dx_pixels": -60.200803251270315,
+      "independent_formula": "u_next=f*(x cos(delta)+sin(delta))/(cos(delta)-x sin(delta))+cx; positive central theta gives +f tan(theta)"
+    },
+    "all_passed": true
+  },
+  "original_versions": {
+    "python": "3.11.17 (main, Oct  1 2026, 20:17:42) [GCC 14.3.0]",
+    "numpy": "1.26.4",
+    "opencv": "4.10.0",
+    "OpenCV_threads": 4,
+    "OpenCL": false
+  },
+  "full_suite_rerun_during_publication_preparation": false
+}

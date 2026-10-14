@@ -1,0 +1,56 @@
+{
+  "classification": "RETAINED_HISTORICAL_RESULT",
+  "checkpoint_loading_and_five_video_execution": "BOUNDED_FIVE_VIDEO_PILOT_COMPLETED_STOPPED_FOR_SCIENTIFIC_REVIEW",
+  "five_retained_outputs": [
+    "A17",
+    "B17",
+    "A17_repeat",
+    "A29",
+    "B29"
+  ],
+  "checks": [
+    {
+      "video": "A17",
+      "all_three_noise_draws_match_serialized_seed": true,
+      "target_rows_and_history_masks_match_official_indexing": true,
+      "opposite_nonzero_yaw_zero_translation": true,
+      "initial_latent_and_embedding_equal": true,
+      "decoded_and_mp4_hashes_verified": true
+    },
+    {
+      "video": "B17",
+      "all_three_noise_draws_match_serialized_seed": true,
+      "target_rows_and_history_masks_match_official_indexing": true,
+      "opposite_nonzero_yaw_zero_translation": true,
+      "initial_latent_and_embedding_equal": true,
+      "decoded_and_mp4_hashes_verified": true
+    },
+    {
+      "video": "A17_repeat",
+      "all_three_noise_draws_match_serialized_seed": true,
+      "target_rows_and_history_masks_match_official_indexing": true,
+      "opposite_nonzero_yaw_zero_translation": true,
+      "initial_latent_and_embedding_equal": true,
+      "decoded_and_mp4_hashes_verified": true
+    },
+    {
+      "video": "A29",
+      "all_three_noise_draws_match_serialized_seed": true,
+      "target_rows_and_history_masks_match_official_indexing": true,
+      "opposite_nonzero_yaw_zero_translation": true,
+      "initial_latent_and_embedding_equal": true,
+      "decoded_and_mp4_hashes_verified": true
+    },
+    {
+      "video": "B29",
+      "all_three_noise_draws_match_serialized_seed": true,
+      "target_rows_and_history_masks_match_official_indexing": true,
+      "opposite_nonzero_yaw_zero_translation": true,
+      "initial_latent_and_embedding_equal": true,
+      "decoded_and_mp4_hashes_verified": true
+    }
+  ],
+  "paired_conditioning_and_repeat_controls_passed": true,
+  "matched_noise_latent_embedding_baseline_checks": true,
+  "inference_executed_during_publication_preparation": false
+}
