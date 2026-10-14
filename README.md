@@ -4,7 +4,7 @@ An independent study of measurement support in action-conditioned world-model ev
 
 **The original model-level result remains INCONCLUSIVE.** A revised image-motion estimator passed a bounded synthetic ground-truth suite, but every retained Astra output failed its frozen 85% coverage requirement. No physical camera-yaw fidelity result or Astra model defect has been established.
 
-This is a **local publication candidate**, prepared on 2026-10-14. Public release is blocked pending completion reconciliation with the final analysis workflow and explicit publication approval. The finalized V2 records are available and their 27-file artifact inventory has been verified; that integrity check does not grant publication approval. See [publication blockers](PUBLICATION_BLOCKERS.md).
+This repository is **publicly released**. The separate final-analysis workflow completed and stopped, and the owner approved the [original publication commit](https://github.com/ZhijingWu/astra-action-consistency-evaluation/commit/80bbec6e9dad96bd6c00f8d491ead919012e5d6d). The originally approved 56-file publication is complete. [Publication blockers](PUBLICATION_BLOCKERS.md) and the [readiness report](PUBLICATION_READINESS_REPORT.md) are preserved historical preparation records; their earlier blocked status is no longer current.
 
 ## Research question
 
@@ -68,7 +68,7 @@ Using the preserved 3-pixel source-location linkage rule, M0 links 4/120 planned
 
 The original conclusion stays **INCONCLUSIVE**. Independent correctness, false-match rates and valid-match rejection rates are unavailable, not zero. See [scientific claims audit](SCIENTIFIC_CLAIMS_AUDIT.md).
 
-**Final-window reconciliation placeholder:** finalized numerical records have been verified; confirmation that the concurrent final-analysis workflow has ended and release approval are still pending. No pending scientific numbers have been invented.
+**Final-analysis status:** The separate final scientific analysis has completed and stopped. The original result remains **INCONCLUSIVE**; independent human ground truth and physical yaw-fidelity validation for the Astra outputs remain unavailable.
 
 ## Reproduce on CPU
 
@@ -86,6 +86,8 @@ python -m unittest discover -s tests -v
 python tools/release_audit.py
 python tools/release_audit.py --verify-manifest
 ```
+
+`SHA256SUMS.txt` is the frozen inventory of the original publication commit linked above. Run manifest verification from a separate checkout of that commit. This README-only status correction is tracked in later Git history; all scientific assets retain their original bytes.
 
 Tests verify frozen source hashes, ten geometry controls, 24 retained M0/M2 interval records in a bounded synthetic smoke run, evidence-poor abstention, all 78 retained synthetic summaries and all 480 retained M2 real-video intervals. The original real videos are not re-evaluated during these tests.
 
@@ -110,4 +112,4 @@ With your own lawfully held native RGB frame array, `python evaluation/video.py 
 
 The MIT [license](LICENSE) applies to this project's original code, prose and original numeric/plot artifacts only. Upstream Astra code and documentation have a separately preserved [MIT notice](third_party/ASTRA_LICENSE.txt); this candidate does not bundle that implementation. No license is inferred for checkpoints or third-party media. Dependencies keep their own licenses and are installed separately.
 
-File-level origins, transformations and SHA-256 hashes are recorded in [provenance](provenance/sources.json) and [public inventory](PUBLIC_FILE_INVENTORY.md). See [license/privacy audit](LICENSE_AND_PRIVACY_AUDIT.md), [reproducibility check](REPRODUCIBILITY_CHECK.md), and [readiness report](PUBLICATION_READINESS_REPORT.md). [Publication commands](docs/PUBLICATION_COMMANDS.md) are review-only and have not been executed.
+File-level origins, transformations and SHA-256 hashes are recorded in [provenance](provenance/sources.json) and [public inventory](PUBLIC_FILE_INVENTORY.md). See [license/privacy audit](LICENSE_AND_PRIVACY_AUDIT.md), [reproducibility check](REPRODUCIBILITY_CHECK.md), and [readiness report](PUBLICATION_READINESS_REPORT.md). These audits and the [original publication commands](docs/PUBLICATION_COMMANDS.md) are historical preparation records, retained for provenance; they do not describe current publication status or instruct readers to recreate the repository.
