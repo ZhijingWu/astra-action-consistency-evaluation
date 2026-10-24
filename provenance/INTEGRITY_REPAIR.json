@@ -1,0 +1,6 @@
+{
+  "date": "2026-10-24",
+  "issue": "README changed after the historical checksum list; all 53 other listed payloads still match.",
+  "scientific_payload_changed": false,
+  "repair": "Retain historical checksums and update the public list to include the current README and integrity receipt."
+}
